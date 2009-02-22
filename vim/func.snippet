@@ -1,8 +1,8 @@
-"Function: \<C-R>=NS_prompt("snippet_funcname", "function name (eg s:FooBar)", "")\<CR>
-"Desc: <++>
+"Function: ${1:s:FooBar}
+"Desc: ${2}
 "
 "Args:
 "
-function! \<C-R>=snippet_funcname\<CR>(<++>)
-  <++>
+function! $1(${3})
+	${4}
 endfunction
